@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    background-color: black;
+    font-family: "Roboto", serif;
+   
+    
+    
+}
+.publicaciones{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+
+}
+.post{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px white;
+    background-color: aliceblue;
+
+
+}
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 5px;
+    width: 100%;
+}
+.cuerpoizq{
+    display: flex;
+    width: 100%;
+}
+
+
+.cuerpoizq img{
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.cuerpoderch{
+   padding: 17px;
+}
+.imagen{
+    display: flex;
+    margin-top: 2px;
+    justify-content: center;
+
+    
+}
+.imagen img{
+    width: 100%;
+    height: auto;
+    margin: 2px 0 10px 0;
+}
+.iconos{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin:0 10px 0 10px
+}
+.iconoizq{
+    display: flex;
+    gap: 10px;
+
+}
+.iconoizq p {
+    margin: 0; 
+    display: inline-block;
+}
+.corazon{
+    color: red;
+}
+.megustas{
+    font-size: smaller;
+}
+.texto{
+    margin:0 10px 0 10px;
+    padding-bottom: 20px;
+
+   
+}
